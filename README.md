@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# To-Do List Interview Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
 
-## Available Scripts
+The goal of this task is to assess your proficiency with React and problem-solving in the context of a small application. You will build a To-Do List with multiple features, progressing through three levels of complexity. Each level introduces new challenges designed to test different aspects of your React and JavaScript skills.
 
-In the project directory, you can run:
+## Task Breakdown
 
-### `npm start`
+### Level A: Basic To-Do List with Sorting
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Objective**: Create a basic to-do list that allows users to add tasks and display them.
+2. **Requirements**:
+   - Users should be able to add new tasks.
+   - Tasks should be displayed in the order they are added.
+   - Users can delete tasks from the list.
+   - Implement a dropdown to toggle between sorting tasks alphabetically and by the time they were added.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Level B: Task Priority and Search
 
-### `npm test`
+1. **Objective**: Enhance the to-do list with task priority and search functionality.
+2. **Requirements**:
+   - Users should be able to assign a priority (high, medium, low) to tasks.
+   - Add the ability to filter tasks by priority.
+   - Implement a search box to filter tasks based on text input.
+   - Users should be able to mark tasks as complete or incomplete.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Level C: Optimized Search and Persistance
 
-### `npm run build`
+1. **Objective**: Add performance optimizations and a drag-and-drop sorting feature.
+2. **Requirements**:
+   - Delay filtering until the user stops typing.
+   - Persist tasks in `localStorage` to maintain the list across page reloads.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Fork or clone this repository.
+2. The project is set up with a skeleton in `App.js`. You can start building your solution directly in this file.
+3. Follow the progression from Level A to Level C, implementing the required features.
+4. Use `useState` and `useEffect` for managing the component state.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup
 
-### `npm run eject`
+1. Install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. You should now be able to start building the To-Do List functionality.
 
-## Learn More
+## Time Allocation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- You should aim to complete the task in **45 minutes**, progressing through the levels as far as you can.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Good luck!
